@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #e3953c; 
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px;
+}
+.login-box {
+    width: 1200px;
+    max-width: 95%;
+    background-color: #ffffff;
+    padding: 50px 65px;
+    border: 3px solid #d97706; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #d97706;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e5e0d8;
+    margin-bottom: 28px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+select.select-role {
+    width: 100%;
+    height: 66px;
+    padding: 12px 20px;
+    border: 2px solid #b0aba4;
+    border-radius: 6px;
+    font-size: 22px;
+    color: #222222;
+    outline: none;
+    background-color: #f6f0f0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select.select-role:focus {
+    border-color: #d97706;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 70px;
+    background-color: #d97706;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #b85e19;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+}
+
+.server-error {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+.success-msg {
+    background-color: #fef3c7;
+    color: #92400e;
+    border: 2px solid #fde68a;
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.account-link-box {
+    text-align: center;
+    font-size: 30px;
+    color: #555555;
+    padding-top: 30px;
+    border-top: 1.5px dashed #ccc;
+    margin-top: 20px;
+}
+
+.account-link-box a {
+    color: #d97706;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.account-link-box a:hover {
+    text-decoration: underline;
+}
